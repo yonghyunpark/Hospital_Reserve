@@ -21,7 +21,9 @@
 #### 도메인 모델과 테이블 설계
 ![KakaoTalk_20230302_140939231](https://user-images.githubusercontent.com/126778700/222419709-81f8bc69-0c77-451d-b624-2bf109938533.png)
 
-### ERD
+#### ERD
 ![KakaoTalk_20230302_141002278](https://user-images.githubusercontent.com/126778700/222419716-d44a70f2-b262-4dc9-91a3-c1a47b9266ce.png)
 
 ---
+### H2 DB에 저장
+![제목 없음](https://user-images.githubusercontent.com/126778700/222427281-3fcec295-f832-44e0-b332-e393130415f0.jpg)
