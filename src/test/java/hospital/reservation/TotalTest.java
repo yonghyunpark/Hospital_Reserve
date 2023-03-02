@@ -96,19 +96,7 @@ public class TotalTest {
         reserveService.reserveCancel(reserve5);
         cancelTotalReserve(totalReservation5);
     }
-
-    @Test
-    @Transactional
-    @Rollback(false)
-    public void 진료과_의사정보출력() {
-        List<MedicalDepartment> result = em.createQuery
-                        ("select distinct d from MedicalDepartment d join fetch d.doctors",MedicalDepartment.class)
-                .getResultList();
-        for (MedicalDepartment medicalDepartment : result) {
-            System.out.println(medicalDepartment.getName()+"  의사명단: " + medicalDepartment.getDoctors());
-        }
-    }
-
+    
     public Patient createPatient(String name, Long age, Gender gender){
         Patient patient = new Patient();
         patient.setName(name);
