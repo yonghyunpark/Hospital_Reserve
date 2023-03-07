@@ -27,3 +27,7 @@
 ---
 ### H2 DB에 저장
 ![제목 없음](https://user-images.githubusercontent.com/126778700/222427281-3fcec295-f832-44e0-b332-e393130415f0.jpg)
+
+---
+### 병원 예약 웹페이지
+![image](https://user-images.githubusercontent.com/126778700/223484326-4d78cde3-8626-4531-9a05-152ff510b01d.png)
