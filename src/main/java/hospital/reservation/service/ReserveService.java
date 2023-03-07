@@ -9,6 +9,8 @@ import hospital.reservation.repository.ReserveRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 
+import java.util.List;
+
 @Service
 @RequiredArgsConstructor
 public class ReserveService {
@@ -32,6 +34,10 @@ public class ReserveService {
         return reserve.getId();
     }
 
+    public List<Reserve> findReserves(){
+        return reserveRepository.findAll();
+    }
+    
     /**
      * 예약 취소
      */
