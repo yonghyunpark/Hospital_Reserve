@@ -22,12 +22,12 @@ public class MedicalDepartmentService {
      * 진료과 등록
      */
     @Transactional
-    public MedicalDepartment register(Long medicalDepartmentId, Hospital hospital){
-        MedicalDepartment medicalDepartment = medicalDepartmentRepository.findOne(medicalDepartmentId);
+    public MedicalDepartment register(MedicalDepartment medicalDepartment, Long hospitalId){
+        //엔티티 조회
+        Hospital hospital = hospitalRepository.findOne(hospitalId);
+
         medicalDepartment.setHospital(hospital);
-        hospital.getMedicalDepartments().add(medicalDepartment);
         medicalDepartmentRepository.save(medicalDepartment);
-        hospitalRepository.save(hospital);
         return medicalDepartment;
     }
 
