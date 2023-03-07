@@ -54,5 +54,5 @@
 ![image](https://user-images.githubusercontent.com/126778700/223486235-763a1d63-6b83-4945-9011-e6a72d10f775.png)
 
 ---
-> 템플릿은 대부분 있던 코드의 짜깁기
-> MVC 추가학습 필요
+> * 템플릿은 대부분 있던 코드의 짜깁기<br>
+> * MVC 추가학습 필요
