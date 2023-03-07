@@ -31,7 +31,6 @@ public class ReserveController {
 
         model.addAttribute("patients",patients);
         model.addAttribute("doctors",doctors);
-
         return "reserves/reserveForm";
     }
 
@@ -46,7 +45,6 @@ public class ReserveController {
     public String list(Model model){
         List<Reserve> reserves = reserveService.findReserves();
         model.addAttribute("reserves", reserves);
-
         return "reserves/reserveList";
     }
 
