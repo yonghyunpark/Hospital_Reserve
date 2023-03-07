@@ -25,20 +25,29 @@
 ![KakaoTalk_20230302_141002278](https://user-images.githubusercontent.com/126778700/222419716-d44a70f2-b262-4dc9-91a3-c1a47b9266ce.png)
 
 ---
-### H2 DB에 저장
+### [H2 DB에 저장]
 ![제목 없음](https://user-images.githubusercontent.com/126778700/222427281-3fcec295-f832-44e0-b332-e393130415f0.jpg)
 
 ---
-### 병원 예약 웹페이지
+### [병원 예약 웹페이지]
+##### 메인 
 ![image](https://user-images.githubusercontent.com/126778700/223484326-4d78cde3-8626-4531-9a05-152ff510b01d.png)
-![image](https://user-images.githubusercontent.com/126778700/223486997-724278ca-c0cb-4664-8a6c-7f50de3bbc32.png)
+##### 환자등록 및 조회
+
 ![image](https://user-images.githubusercontent.com/126778700/223485169-020d3b75-708f-48c8-9594-7e705b7380ee.png)
-![image](https://user-images.githubusercontent.com/126778700/223485386-0ddc1ef7-1d5c-4f4f-b895-80b4b72689e7.png)
+
+##### 병원등록 및 조회
+![image](https://user-images.githubusercontent.com/126778700/223486997-724278ca-c0cb-4664-8a6c-7f50de3bbc32.png)
 ![image](https://user-images.githubusercontent.com/126778700/223485303-3100062f-7e7c-4436-b199-9e3d562a373c.png)
 
-![image](https://user-images.githubusercontent.com/126778700/223485453-a8d1ea51-e97e-45d9-969c-75b369eae5ac.png)
+##### 진료과등록 및 조회
 ![image](https://user-images.githubusercontent.com/126778700/223485772-8ef0b776-a5fa-4bfd-9938-eba025f79642.png)
+![image](https://user-images.githubusercontent.com/126778700/223485453-a8d1ea51-e97e-45d9-969c-75b369eae5ac.png)
+
+##### 의사등록 및 조회
 ![image](https://user-images.githubusercontent.com/126778700/223485938-59999888-5b01-4912-87d2-c6729c61edf6.png)
+
+##### 예약 및 조회, 예약취소
 ![image](https://user-images.githubusercontent.com/126778700/223486023-a3f9d560-49d0-4ce3-90de-6c4885279a2b.png)
 ![image](https://user-images.githubusercontent.com/126778700/223486101-9f36cfca-ab26-4941-8911-6842e46c1cba.png)
 ![image](https://user-images.githubusercontent.com/126778700/223486235-763a1d63-6b83-4945-9011-e6a72d10f775.png)
