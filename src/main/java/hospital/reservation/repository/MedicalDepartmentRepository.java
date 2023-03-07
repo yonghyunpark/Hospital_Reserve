@@ -4,16 +4,19 @@ import hospital.reservation.domain.Doctor;
 import hospital.reservation.domain.MedicalDepartment;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Repository;
+import org.springframework.transaction.annotation.Transactional;
 
 import javax.persistence.EntityManager;
 import java.util.List;
 
 @Repository
+@Transactional(readOnly = true)
 @RequiredArgsConstructor
 public class MedicalDepartmentRepository {
 
     private final EntityManager em;
 
+    @Transactional
     public Long save(MedicalDepartment medicalDepartment){
         em.persist(medicalDepartment);
         return medicalDepartment.getId();

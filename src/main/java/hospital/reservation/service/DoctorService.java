@@ -22,8 +22,7 @@ public class DoctorService {
      * 의사 등록
      */
     @Transactional
-    public Doctor register(Long doctorId, MedicalDepartment medicalDepartment){
-        Doctor doctor = doctorRepository.findOne(doctorId);
+    public Doctor register(Doctor doctor, MedicalDepartment medicalDepartment){
         doctor.setMedicalDepartment(medicalDepartment);
         medicalDepartment.getDoctors().add(doctor);
         doctorRepository.save(doctor);
