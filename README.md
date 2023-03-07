@@ -29,8 +29,8 @@
 ![제목 없음](https://user-images.githubusercontent.com/126778700/222427281-3fcec295-f832-44e0-b332-e393130415f0.jpg)
 
 ---
-### [병원 예약 웹페이지]
-##### 메인 
+### [병원 예약 웹페이지] / localhost:8080 연결
+##### 메인
 ![image](https://user-images.githubusercontent.com/126778700/223484326-4d78cde3-8626-4531-9a05-152ff510b01d.png)
 ##### 환자등록 및 조회
 ![image](https://user-images.githubusercontent.com/126778700/223489812-de3f4ad6-748e-40c5-842f-d081263201e4.png)
