@@ -50,31 +50,31 @@ public class TotalTest {
 
         //진료과
         MedicalDepartment medicalDepartment1 = createMedicalDepartment("정형외과","111-1111");
-        medicalDepartmentService.register(medicalDepartment1.getId(),hospital1);
+        medicalDepartmentService.register(medicalDepartment1,hospital1.getId());
         MedicalDepartment medicalDepartment2 = createMedicalDepartment("신장내과","222-2222");
-        medicalDepartmentService.register(medicalDepartment2.getId(),hospital1);
+        medicalDepartmentService.register(medicalDepartment2,hospital1.getId());
         MedicalDepartment medicalDepartment3 = createMedicalDepartment("안과","333-3333");
-        medicalDepartmentService.register(medicalDepartment3.getId(), hospital2);
+        medicalDepartmentService.register(medicalDepartment3, hospital2.getId());
         MedicalDepartment medicalDepartment4 = createMedicalDepartment("신경외과","444-4444");
-        medicalDepartmentService.register(medicalDepartment4.getId(), hospital2);
+        medicalDepartmentService.register(medicalDepartment4, hospital2.getId());
         MedicalDepartment medicalDepartment5 = createMedicalDepartment("비뇨기과","555-5555");
-        medicalDepartmentService.register(medicalDepartment5.getId(), hospital3);
+        medicalDepartmentService.register(medicalDepartment5, hospital3.getId());
         MedicalDepartment medicalDepartment6 = createMedicalDepartment("성형외과","666-6666");
-        medicalDepartmentService.register(medicalDepartment6.getId(), hospital3);
+        medicalDepartmentService.register(medicalDepartment6, hospital3.getId());
 
         //의사
         Doctor doctor1 = createDoctor("나의사",8L);
-        doctorService.register(doctor1.getId(),medicalDepartment1);
+        doctorService.register(doctor1,medicalDepartment1);
         Doctor doctor2 = createDoctor("이의사",10L);
-        doctorService.register(doctor2.getId(),medicalDepartment2);
+        doctorService.register(doctor2,medicalDepartment2);
         Doctor doctor3 = createDoctor("김의사",5L);
-        doctorService.register(doctor3.getId(),medicalDepartment3);
+        doctorService.register(doctor3,medicalDepartment3);
         Doctor doctor4 = createDoctor("박의사",7L);
-        doctorService.register(doctor4.getId(),medicalDepartment4);
+        doctorService.register(doctor4,medicalDepartment4);
         Doctor doctor5 = createDoctor("황의사",4L);
-        doctorService.register(doctor5.getId(),medicalDepartment5);
+        doctorService.register(doctor5,medicalDepartment5);
         Doctor doctor6 = createDoctor("송의사",6L);
-        doctorService.register(doctor6.getId(),medicalDepartment6);
+        doctorService.register(doctor6,medicalDepartment6);
 
         //예약
         Long reserve1 = reserveService.reserve(patient1.getId(), doctor4.getId());

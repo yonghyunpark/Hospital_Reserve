@@ -46,7 +46,7 @@ public class DoctorServiceTest {
         medicalDepartment.setPhoneNum("010-1111-2222");
 
         //when
-        Doctor doctor1 = doctorService.register(doctor.getId() ,medicalDepartment);
+        Doctor doctor1 = doctorService.register(doctor, medicalDepartment);
 
         //then
         assertEquals(doctor, doctorRepository.findOne(doctor1.getId()));
