@@ -8,10 +8,12 @@ import hospital.reservation.repository.PatientRepository;
 import hospital.reservation.repository.ReserveRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 
 import java.util.List;
 
 @Service
+@Transactional(readOnly = true)
 @RequiredArgsConstructor
 public class ReserveService {
 
@@ -22,6 +24,7 @@ public class ReserveService {
     /**
      * 예약
      */
+    @Transactional
     public Long reserve(Long patientId, Long doctorId) {
 
         Patient patient = patientRepository.findOne(patientId);
@@ -37,10 +40,11 @@ public class ReserveService {
     public List<Reserve> findReserves(){
         return reserveRepository.findAll();
     }
-    
+
     /**
      * 예약 취소
      */
+    @Transactional
     public void reserveCancel(Long reserveId) {
         Reserve reserve = reserveRepository.findOne(reserveId);
         reserve.cancel();

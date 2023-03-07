@@ -1,0 +1,32 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head th:replace="fragments/header :: header" />
+<body>
+<div class="container">
+    <div th:replace="fragments/bodyHeader :: bodyHeader"/>
+    <form role="form" action="/reserve" method="post">
+        <div class="form-group">
+            <label for="patient">예약환자</label>
+            <select name="patientId" id="patient" class="form-control">
+                <option value="">환자선택</option>
+                <option th:each="patient : ${patients}"
+                        th:value="${patient.id}"
+                        th:text="${patient.name}" />
+            </select>
+        </div>
+        <div class="form-group">
+            <label for="doctor">의사</label>
+            <select name="doctorId" id="doctor" class="form-control">
+                <option value="">의사선택</option>
+                <option th:each="doctor : ${doctors}"
+                        th:value="${doctor.id}"
+                        th:text="${doctor.name}" />
+            </select>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+    <br/>
+    <div th:replace="fragments/footer :: footer" />
+</div> <!-- /container -->
+</body>
+</html>

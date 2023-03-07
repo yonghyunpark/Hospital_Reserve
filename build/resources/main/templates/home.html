@@ -1,0 +1,41 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head th:replace="fragments/header :: header">
+    <title>Reserve</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+<body>
+<div class="container">
+    <div th:replace="fragments/bodyHeader :: bodyHeader" />
+    <div class="jumbotron">
+        <h1>HOSPITAL RESERVE</h1>
+        <p class="lead">환자</p>
+        <p>
+            <a class="btn btn-lg btn-secondary" href="/patients/new">환자 등록</a>
+            <a class="btn btn-lg btn-secondary" href="/patients">환자 조회</a>
+        </p>
+        <p class="lead">병원</p>
+        <p>
+            <a class="btn btn-lg btn-dark" href="/hospitals/new">병원 등록</a>
+            <a class="btn btn-lg btn-dark" href="/hospitals">병원 조회</a>
+        </p>
+        <p class="lead">진료과</p>
+        <p>
+            <a class="btn btn-lg btn-dark" href="/medicalDepartments/new">진료과 등록</a>
+            <a class="btn btn-lg btn-dark" href="/medicalDepartments">진료과 조회</a>
+        </p>
+        <p class="lead">의사</p>
+        <p>
+            <a class="btn btn-lg btn-dark" href="/doctors/new">의사 등록</a>
+            <a class="btn btn-lg btn-dark" href="/doctors">의사 조회</a>
+        </p>
+        <p class="lead">예약</p>
+        <p>
+            <a class="btn btn-lg btn-info" href="/reserve">진료 예약</a>
+            <a class="btn btn-lg btn-info" href="/reserves">예약 확인</a>
+        </p>
+    </div>
+    <div th:replace="fragments/footer :: footer" />
+</div> <!-- /container -->
+</body>
+</html>
