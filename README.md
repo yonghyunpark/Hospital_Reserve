@@ -33,7 +33,7 @@
 ##### 메인 
 ![image](https://user-images.githubusercontent.com/126778700/223484326-4d78cde3-8626-4531-9a05-152ff510b01d.png)
 ##### 환자등록 및 조회
-
+![image](https://user-images.githubusercontent.com/126778700/223489812-de3f4ad6-748e-40c5-842f-d081263201e4.png)
 ![image](https://user-images.githubusercontent.com/126778700/223485169-020d3b75-708f-48c8-9594-7e705b7380ee.png)
 
 ##### 병원등록 및 조회
@@ -46,6 +46,7 @@
 
 ##### 의사등록 및 조회
 ![image](https://user-images.githubusercontent.com/126778700/223485938-59999888-5b01-4912-87d2-c6729c61edf6.png)
+![image](https://user-images.githubusercontent.com/126778700/223490119-f2e13472-edf2-417e-8556-8e559392f37a.png)
 
 ##### 예약 및 조회, 예약취소
 ![image](https://user-images.githubusercontent.com/126778700/223486023-a3f9d560-49d0-4ce3-90de-6c4885279a2b.png)
